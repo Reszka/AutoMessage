@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8901088-acb1-4c43-b773-cc4f0bd07fcb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZUtBAH6KioTD6lHssBJxmpBMUd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: MessageReceivedConfirm">
+    <configuration name="All Features in: Features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mKulig" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: MessageReceivedConfirm" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/MessageReceivedConfirm.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mKulig" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: MessageReceivedConfirm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: PreparingEnvironment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/PreparingEnvironment.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mKulig" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PreparingEnvironment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Prepering environment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Prepering environment" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mKulig" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Prepering environment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: PreperingEnvironment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/PreperingEnvironment" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mKulig" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PreperingEnvironment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: MessageReceivedConfirm" />
+        <item itemvalue="Cucumber java.All Features in: Features" />
+        <item itemvalue="Cucumber java.Feature: PreparingEnvironment" />
+        <item itemvalue="Cucumber java.Feature: PreperingEnvironment" />
+        <item itemvalue="Cucumber java.Feature: Prepering environment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8901088-acb1-4c43-b773-cc4f0bd07fcb" name="Default Changelist" comment="" />
+      <created>1584905362407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584905362407</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="406" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584911424013">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="406" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584911424013" />
+    <state x="406" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584905727358">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="406" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584905727358" />
+    <state x="1954" y="300" key="FileChooserDialogImpl" timestamp="1584905450661">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1954" y="300" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584905450661" />
+    <state x="171" y="193" width="771" height="217" key="Github.CreateGistDialog" timestamp="1584913361300">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="171" y="193" width="771" height="217" key="Github.CreateGistDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584913361300" />
+    <state width="1150" height="100" key="GridCell.Tab.0.bottom" timestamp="1584918665670">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1150" height="100" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665670" />
+    <state width="1150" height="100" key="GridCell.Tab.0.center" timestamp="1584918665669">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1150" height="100" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665669" />
+    <state width="1150" height="100" key="GridCell.Tab.0.left" timestamp="1584918665669">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1150" height="100" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665669" />
+    <state width="1150" height="100" key="GridCell.Tab.0.right" timestamp="1584918665670">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1150" height="100" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665670" />
+    <state x="139" y="0" key="SettingsEditor" timestamp="1584905720173">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584905720173" />
+    <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584905698887" />
+    <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584916329046">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584916329046" />
+  </component>
+</project>
