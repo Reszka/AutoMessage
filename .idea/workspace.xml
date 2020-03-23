@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8901088-acb1-4c43-b773-cc4f0bd07fcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/PanelStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/PanelStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/WidgetStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/WidgetStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/PanelStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/PanelStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mKulig.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mKulig.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/PanelStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/WidgetStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/PanelStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/WidgetStep.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,22 +187,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="171" y="193" width="771" height="217" key="Github.CreateGistDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584913361300" />
-    <state width="1322" height="119" key="GridCell.Tab.0.bottom" timestamp="1584988938448">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1876" height="160" key="GridCell.Tab.0.bottom" timestamp="1585000449706">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1322" height="119" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584988938448" />
-    <state width="1322" height="119" key="GridCell.Tab.0.center" timestamp="1584988938448">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1322" height="165" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584990488243" />
+    <state width="1876" height="160" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585000449706" />
+    <state width="1876" height="160" key="GridCell.Tab.0.center" timestamp="1585000449705">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1322" height="119" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584988938448" />
-    <state width="1322" height="119" key="GridCell.Tab.0.left" timestamp="1584988938447">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1322" height="165" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584990488243" />
+    <state width="1876" height="160" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585000449705" />
+    <state width="1876" height="160" key="GridCell.Tab.0.left" timestamp="1585000449705">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1322" height="119" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584988938447" />
-    <state width="1322" height="119" key="GridCell.Tab.0.right" timestamp="1584988938448">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1322" height="165" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584990488242" />
+    <state width="1876" height="160" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585000449705" />
+    <state width="1876" height="160" key="GridCell.Tab.0.right" timestamp="1585000449705">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1322" height="119" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584988938448" />
+    <state width="1322" height="165" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584990488243" />
+    <state width="1876" height="160" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585000449705" />
     <state x="139" y="0" key="SettingsEditor" timestamp="1584919621954">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
