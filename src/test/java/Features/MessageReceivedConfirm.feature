@@ -7,7 +7,7 @@ Feature: MessageReceivedConfirm
     Given I navigate to widget page
     And I navigate to the login page
     And I enter the username as "mart.kulig@gmail.com" and password as "Password1" and log in
-    And I send message on widget page
+    And I send message with my email on widget page
     And I navigate to conversations page
     Then I confirm receiving the message
 

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8901088-acb1-4c43-b773-cc4f0bd07fcb" name="Default Changelist" comment="" />
+    <list default="true" id="a8901088-acb1-4c43-b773-cc4f0bd07fcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/MessageReceivedConfirm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/MessageReceivedConfirm.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/PanelStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/PanelStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/WidgetStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/WidgetStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/PanelStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/PanelStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/WidgetStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/WidgetStep.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +42,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: MessageReceivedConfirm">
+    <configuration name="RandomEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomEmail" />
+      <module name="mKulig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All Features in: Features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features" />
@@ -91,24 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Prepering environment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Prepering environment" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="mKulig" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Prepering environment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: PreperingEnvironment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/PreperingEnvironment" />
@@ -130,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Feature: MessageReceivedConfirm" />
+        <item itemvalue="Application.RandomEmail" />
         <item itemvalue="Cucumber java.All Features in: Features" />
         <item itemvalue="Cucumber java.Feature: PreparingEnvironment" />
         <item itemvalue="Cucumber java.Feature: PreperingEnvironment" />
-        <item itemvalue="Cucumber java.Feature: Prepering environment" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +156,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="26" key="#Notifications/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584919468208" />
+    <state x="275" y="26" key="#Project_Structure" timestamp="1584985855372">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="26" key="#Project_Structure/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584985855372" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584981424746">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584981424746" />
     <state x="406" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584911424013">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -172,30 +181,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="171" y="193" width="771" height="217" key="Github.CreateGistDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584913361300" />
-    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1584921536415">
+    <state width="1322" height="91" key="GridCell.Tab.0.bottom" timestamp="1584987869099">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536415" />
-    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1584921536414">
+    <state width="1322" height="91" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584987869099" />
+    <state width="1322" height="91" key="GridCell.Tab.0.center" timestamp="1584987869099">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536414" />
-    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1584921536414">
+    <state width="1322" height="91" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584987869099" />
+    <state width="1322" height="91" key="GridCell.Tab.0.left" timestamp="1584987869098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536414" />
-    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1584921536414">
+    <state width="1322" height="91" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584987869098" />
+    <state width="1322" height="91" key="GridCell.Tab.0.right" timestamp="1584987869099">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536414" />
+    <state width="1322" height="91" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584987869099" />
     <state x="139" y="0" key="SettingsEditor" timestamp="1584919621954">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584919621954" />
     <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584905698887" />
-    <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584916329046">
+    <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584982390976">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584916329046" />
+    <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584982390976" />
   </component>
 </project>

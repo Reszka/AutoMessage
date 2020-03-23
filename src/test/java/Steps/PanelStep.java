@@ -1,6 +1,8 @@
 package Steps;
 
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
@@ -19,6 +21,16 @@ public class PanelStep {
     public void SetUpDriver() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
+    }
+
+    @After
+    public void TearDownTest(Scenario scenario) {
+        if (scenario.isFailed()) {
+            System.out.println(scenario.getName());
+        }
+        System.out.println("Closing the browser : Chrome");
+        driver.close();
+        driver.quit();
     }
 
     @And("I navigate to the login page")
@@ -44,11 +56,11 @@ public class PanelStep {
 
     @Then("I confirm receiving the message")
     public void iConfirmReceivingTheMessage() {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        /*WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@placeholder='Enter your message...']")));
         driver.findElement(By.xpath("//textarea[@placeholder='Enter your message...']"));
         WebElement replyMessage =  driver.findElement(By.xpath("//textarea[@placeholder='Enter your message...']"));
         replyMessage.sendKeys("Potwierdzamy otrzymanie wiadomości.");
-        replyMessage.sendKeys(Keys.ENTER);
+        replyMessage.sendKeys(Keys.ENTER);*/
     }
 }
