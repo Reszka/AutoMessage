@@ -4,7 +4,9 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -33,5 +35,20 @@ public class PanelStep {
 
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("app-content-header")));
+    }
+
+    @And("I navigate to conversations page")
+    public void iNavigateToConversationsPage() {
+        driver.navigate().to("https://www.tidio.com/panel/conversations/");
+    }
+
+    @Then("I confirm receiving the message")
+    public void iConfirmReceivingTheMessage() {
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@placeholder='Enter your message...']")));
+        driver.findElement(By.xpath("//textarea[@placeholder='Enter your message...']"));
+        WebElement replyMessage =  driver.findElement(By.xpath("//textarea[@placeholder='Enter your message...']"));
+        replyMessage.sendKeys("Potwierdzamy otrzymanie wiadomości.");
+        replyMessage.sendKeys(Keys.ENTER);
     }
 }

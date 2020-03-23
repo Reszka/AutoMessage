@@ -34,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: MessageReceivedConfirm">
     <configuration name="All Features in: Features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -151,6 +151,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Notifications" timestamp="1584919468208">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="26" key="#Notifications/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584919468208" />
     <state x="406" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584911424013">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -159,34 +163,35 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="406" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584905727358" />
-    <state x="1954" y="300" key="FileChooserDialogImpl" timestamp="1584905450661">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state x="418" y="205" key="FileChooserDialogImpl" timestamp="1584919610855">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="418" y="205" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584919610855" />
     <state x="1954" y="300" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584905450661" />
     <state x="171" y="193" width="771" height="217" key="Github.CreateGistDialog" timestamp="1584913361300">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="171" y="193" width="771" height="217" key="Github.CreateGistDialog/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584913361300" />
-    <state width="1150" height="100" key="GridCell.Tab.0.bottom" timestamp="1584918665670">
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1584921536415">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1150" height="100" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665670" />
-    <state width="1150" height="100" key="GridCell.Tab.0.center" timestamp="1584918665669">
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536415" />
+    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1584921536414">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1150" height="100" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665669" />
-    <state width="1150" height="100" key="GridCell.Tab.0.left" timestamp="1584918665669">
+    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536414" />
+    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1584921536414">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1150" height="100" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665669" />
-    <state width="1150" height="100" key="GridCell.Tab.0.right" timestamp="1584918665670">
+    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536414" />
+    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1584921536414">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1150" height="100" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584918665670" />
-    <state x="139" y="0" key="SettingsEditor" timestamp="1584905720173">
+    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584921536414" />
+    <state x="139" y="0" key="SettingsEditor" timestamp="1584919621954">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584905720173" />
+    <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@0.0.1366.738" timestamp="1584919621954" />
     <state x="139" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584905698887" />
     <state x="435" y="289" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584916329046">
       <screen x="0" y="0" width="1366" height="738" />

@@ -26,7 +26,6 @@ public class WidgetStep {
     @After
     public void TearDownTest(Scenario scenario) {
         if (scenario.isFailed()) {
-            //Take screenshot logic goes here
             System.out.println(scenario.getName());
         }
         System.out.println("Closing the browser : Firefox");
@@ -41,12 +40,19 @@ public class WidgetStep {
     @Then("I send message on widget page")
     public void sendMessage() {
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector("#tidio-chat-iframe")));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div:nth-child(1) div.frame-content div.widget-position-right.sidebar-position-right div.flyMessage.chrome.moveFromRight-enter-done > div.message-container")));
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("tidio-chat-iframe")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("new-message-button-fly")));
         driver.findElement(By.id("new-message-button-fly")).click();
         driver.findElement(By.id("new-message-textarea"));
         WebElement messageBox =  driver.findElement(By.id("new-message-textarea"));
         messageBox.sendKeys("Bardzo miła wiadomość testowa.");
         messageBox.sendKeys(Keys.ENTER);
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Podaj swój email...']")));
+        driver.findElement(By.xpath("//input[@placeholder='Podaj swój email...']"));
+        WebElement email = driver.findElement(By.xpath("//input[@placeholder='Podaj swój email...']"));
+        email.sendKeys("bardzo@testowy.mail");
+        email.sendKeys(Keys.ENTER);
     }
+
 }
