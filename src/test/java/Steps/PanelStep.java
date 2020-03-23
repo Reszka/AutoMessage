@@ -21,14 +21,17 @@ public class PanelStep {
     public void SetUpDriver() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
+
+        /*System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+        driver = new FirefoxDriver();*/
     }
 
     @After
-    public void TearDownTest(Scenario scenario) {
+    public void ClosingTest(Scenario scenario) {
         if (scenario.isFailed()) {
             System.out.println(scenario.getName());
         }
-        System.out.println("Closing the browser : Chrome");
+        System.out.println("Closing the browser");
         driver.close();
         driver.quit();
     }
@@ -56,11 +59,12 @@ public class PanelStep {
 
     @Then("I confirm receiving the message")
     public void iConfirmReceivingTheMessage() {
-        /*WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@placeholder='Enter your message...']")));
-        driver.findElement(By.xpath("//textarea[@placeholder='Enter your message...']"));
+
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(@class,'hide-dropdown')]")));
+        driver.findElement(By.xpath("//a[contains(@class,'hide-dropdown')]")).click();
         WebElement replyMessage =  driver.findElement(By.xpath("//textarea[@placeholder='Enter your message...']"));
         replyMessage.sendKeys("Potwierdzamy otrzymanie wiadomości.");
-        replyMessage.sendKeys(Keys.ENTER);*/
+        replyMessage.sendKeys(Keys.ENTER);
     }
 }
